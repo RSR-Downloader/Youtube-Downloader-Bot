@@ -9,6 +9,6 @@ async def start(client, message):
         [InlineKeyboardButton(
             "SUPPORT GROUP", url="https://t.me/mp3andvideodownloader")]
     ])
-    welcomed = f"Hi! <b>{message.from_user.first_name}</b>Min hmandan tur i hriat duh chuan /help tih hi click mai rawh."
+    welcomed = f"Hi! <b>{message.from_user.first_name}</b>\n/help tih hi click la min hman dan tur i hrethei ang."
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
