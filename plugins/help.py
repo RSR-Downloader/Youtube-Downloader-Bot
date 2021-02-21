@@ -3,5 +3,5 @@ from pyrogram import Client, Filters
 
 @Client.on_message(Filters.command(["help"]))
 async def start(client, message):
-    helptxt = f"Aw le! Youtube Video Mp3/Mp4 engpawh ka download theia, Mahse, Playlists a theih loh thung. Youtube URL Link lo thawn tawp la aw. Chuan Mp3/Mp4 i duh ilo thlang mai ang,chuan i awmna group ah min add a,admin a min dah bawk chuan group ah pawh hna ka thawk thei e,min add dan tur chu i group Add member tih ah khan kal la,mami4_bot ti in search la,ka lo lang anga min add mai dawn nia. Hriatthiam loh i neih chuan tah hian min lo be dawn nia @rsrmusic"
+    helptxt = f"Hello,kei hi YouTube ami video emaw mp3 a download a thawn thei tu ka ni a,YouTube a i download duh kha a link min lo thawn la,ka lo download sak che anga ka rawn thawn leh ang che,tin..Group ah ka hman theih bawk a,mp3 leh video in pek tawn na group vel ah ka tangkai ang,link hi click la i awmma group ah min add anga,admin ah min dah dawn nia  https://telegram.me/miss_mami_bot?startgroup=chat  Hriatthiam loh i neih chuan tah hian min lo be dawn nia,ani hi min siamtu ani e😊👇   @rsrmusic"
     await message.reply_text(helptxt)
